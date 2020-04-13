@@ -2,16 +2,16 @@
 class Ax < Formula
   desc "jwt decoder."
   homepage "https://github.com/itooww/ax/"
-  version "0.0.5"
+  version "0.0.7"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/itooww/ax/releases/download/v0.0.5/ax_darwin_x86_64.tar.gz"
-    sha256 "b46938dea4ddc37432e56c033677f00ae0878ceba23fcb00cf093ee5f9ed4dd7"
+    url "https://github.com/itooww/ax/releases/download/v0.0.7/ax_darwin_x86_64.tar.gz"
+    sha256 "75803e1de3311ba9b64ece84fc2b9b15990639cf6a75023e1894271611d54db0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/itooww/ax/releases/download/v0.0.5/ax_linux_x86_64.tar.gz"
-      sha256 "557c5c71362f31fed5bd3d798e607942c240da53af4562cc817953afd931a2c8"
+      url "https://github.com/itooww/ax/releases/download/v0.0.7/ax_linux_x86_64.tar.gz"
+      sha256 "910aafe4a32d6ae0f9c74a83d9e7bf1717def2714697b750e6fbaed7f243af71"
     end
   end
 
